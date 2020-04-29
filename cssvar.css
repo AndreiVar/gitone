@@ -1,6 +1,69 @@
-body {background-color: azure;}
-    h1 {color: red;}    
-        p {white-space: break-spaces;}
-            h2 {color: blueviolet;}
-#met1 {color: rgb(51, 48, 240); margin-left: 1%;}
+html  {
+    background-color: azure;
+}
 
+body {
+    border: 4px solid purple;
+    padding: 20px;
+    margin: 10px;
+}
+
+#one1 {
+    color: blue;
+    text-align: center; 
+    border: 2px solid gold;
+    border-radius: 5px;
+    
+}    
+
+.two1, h2 {
+    color: blueviolet;
+    text-align: center;
+    border: 1.3px solid greenyellow;
+    border-radius: 5px;
+}
+
+#met1 {
+    color: green; margin-left: 1%;
+}
+
+h2:hover {
+    color:lightseagreen ;
+
+}
+
+#one1:hover {
+    color: lightseagreen;
+    
+}
+
+p:hover {
+    color: lightcoral;
+
+}
+
+ol:hover {
+    color: lightskyblue;
+
+}
+
+.box1 { 
+    font-family: sans-serif;
+    border: 1px dashed;
+    padding: 20px;
+}
+
+.box2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.box3 {
+    font-family: monospace;
+    font-size: 14px; 
+    color: brown;   
+}
+
+.sp {
+    font-family: fantasy;
+}
